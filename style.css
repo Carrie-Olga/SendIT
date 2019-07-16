@@ -4,7 +4,7 @@
 }
 
 html {
-  padding: 5px;
+  font-size: 16px;
 }
 
 a {
@@ -12,13 +12,51 @@ a {
 }
 
 body {
-  font-family: "Myriad Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 /*Mob version*/
+h1 {
+  color: #000000;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #000000;
+  font-size: 1.12rem;
+  line-height: 1.12rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+p {
+  color: #000000;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
 .container {
-  width: 280px;
+  width: 320px;
   margin: 0 auto;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu {
@@ -29,9 +67,49 @@ body {
   background-size: cover;
   background-position-x: -400px;
 }
+.menu__nav {
+  display: none;
+}
+.menu__img {
+  width: 40px;
+  height: 30px;
+}
 
-.menu {
-  padding: 6rem 4rem;
+.button {
+  text-transform: uppercase;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 17px 35px;
+  text-align: center;
+}
+.button__blue {
+  background-color: #008dcd;
+}
+.button__a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main {
+  background-color: #ffffff;
+}
+.main__1 {
+  background-color: #f7f7f7;
+}
+.main__img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 20px;
+}
+.main__steps {
+  display: flex;
+}
+
+.logo__img {
+  width: 100px;
+  height: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
