@@ -19,13 +19,16 @@ h1
   line-height: 2.5rem
   font-weight: 900
   margin-bottom: 15px
+  text-transform: uppercase
 
 h2
   color: #000000
   font-size: 1.5rem
-  line-height: 1.5rem
+  line-height: 1.8rem
   font-weight: 700
-  margin-bottom: 30px
+
+.h2_step
+  margin-bottom: 5px
 
 h3
   color: #000000
@@ -36,9 +39,15 @@ h3
 
 p
   color: #000000
-  font-size: 12px
+  font-size: 0.75rem
   font-weight: 400
+
+.p_step
+  font-size: 0.875rem
   margin-bottom: 20px
+
+.main__step:last-of-type p
+  margin-bottom: 0
 
 .container
   width: 320px
@@ -66,20 +75,30 @@ p
     height: 30px
 
 .button
-  text-transform: uppercase
   border-radius: 30px
   box-sizing: border-box
   padding: 17px 35px
   text-align: center
+  margin: 20px auto 0
+  min-width: 100%
 
   &__blue
     background-color: #008dcd
 
+  &__yellow
+    background-color: #ffcc00
+    margin-top: 10px
+
   &__a
     color: #ffffff
-    font-size: 16px
+    font-size: 1rem
     font-weight: 700
     text-transform: uppercase
+
+    &_y
+      color: #363636
+      font-weight: 700
+      text-transform: uppercase
 
 .main
   background-color: #ffffff
@@ -94,7 +113,116 @@ p
 
   &__steps
     display: flex
+    flex-direction: column
+
+    &_send
+      background-color: #f7f7f7
+
+  &__step
+    min-height: 180px
+
+    &-img
+      max-width: 100%
+      max-height: 100%
+      margin-bottom: 15px
 
 .logo__img
   width: 100px
   height: 30px
+
+.callback
+  background-color: #008dcd
+
+  &_h1
+    color: #ffffff
+    font-size: 1.75rem
+    font-weight: 900
+    text-transform: uppercase
+    line-height: 2rem
+
+  &_p
+    color: #ffffff
+    font-size: 0.875rem
+    font-weight: 400
+    line-height: 0.875rem
+
+  &__input
+    border-radius: 30px
+    box-sizing: border-box
+    padding: 17px 35px
+    text-align: left
+    margin: 20px auto 0
+    min-width: 100%
+    font-size: 1rem
+    font-weight: 400
+    background-color: #008dcd
+    color: #ffffff
+    border: 1px solid white
+    outline: none
+
+    &::placeholder
+      color: #ffffff
+      opacity: 1
+
+  &__checkbox
+    display: flex
+    margin-top: 5px
+
+  &__check
+    margin-right: 5px
+
+  &__check_l
+    color: #ffffff
+    font-size: 0.625rem
+    font-weight: 400
+
+.feedback
+  background-color: white
+  padding-bottom: 0.3rem
+
+  &__items
+    display: flex
+    align-items: center
+
+  &__item_top
+    display: flex
+    margin-bottom: 0.5rem
+
+  &__img
+    height: 100px
+    width: 100px
+    margin-right: 1.1rem
+
+  &__arrow
+    width: 0.8rem
+    height: 1.3rem
+
+    &_left
+      margin-right: 0.6rem
+
+    &_right
+      margin-left: 0.6rem
+
+  &__h2
+    font-size: 1.625rem
+    font-weight: 400
+    line-height: 1.625rem
+    margin-bottom: 5px
+    margin-top: -3px
+
+  &__h3
+    font-size: 1.125rem
+    font-weight: 400
+    margin-bottom: 10px
+
+  &__p
+    font-size: 0.625rem
+    font-weight: 400
+    line-height: 1rem
+
+    &-2
+      font-size: 0.75rem
+      font-weight: 400
+      margin-bottom: 0.4rem
+
+

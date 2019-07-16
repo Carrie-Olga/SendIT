@@ -22,14 +22,18 @@ h1 {
   line-height: 2.5rem;
   font-weight: 900;
   margin-bottom: 15px;
+  text-transform: uppercase;
 }
 
 h2 {
   color: #000000;
   font-size: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.8rem;
   font-weight: 700;
-  margin-bottom: 30px;
+}
+
+.h2_step {
+  margin-bottom: 5px;
 }
 
 h3 {
@@ -42,9 +46,17 @@ h3 {
 
 p {
   color: #000000;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 400;
+}
+
+.p_step {
+  font-size: 0.875rem;
   margin-bottom: 20px;
+}
+
+.main__step:last-of-type p {
+  margin-bottom: 0;
 }
 
 .container {
@@ -76,18 +88,28 @@ p {
 }
 
 .button {
-  text-transform: uppercase;
   border-radius: 30px;
   box-sizing: border-box;
   padding: 17px 35px;
   text-align: center;
+  margin: 20px auto 0;
+  min-width: 100%;
 }
 .button__blue {
   background-color: #008dcd;
 }
+.button__yellow {
+  background-color: #ffcc00;
+  margin-top: 10px;
+}
 .button__a {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.button__a_y {
+  color: #363636;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -105,11 +127,120 @@ p {
 }
 .main__steps {
   display: flex;
+  flex-direction: column;
+}
+.main__steps_send {
+  background-color: #f7f7f7;
+}
+.main__step {
+  min-height: 180px;
+}
+.main__step-img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 15px;
 }
 
 .logo__img {
   width: 100px;
   height: 30px;
+}
+
+.callback {
+  background-color: #008dcd;
+}
+.callback_h1 {
+  color: #ffffff;
+  font-size: 1.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 2rem;
+}
+.callback_p {
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 0.875rem;
+}
+.callback__input {
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 17px 35px;
+  text-align: left;
+  margin: 20px auto 0;
+  min-width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #008dcd;
+  color: #ffffff;
+  border: 1px solid white;
+  outline: none;
+}
+.callback__input::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.callback__checkbox {
+  display: flex;
+  margin-top: 5px;
+}
+.callback__check {
+  margin-right: 5px;
+}
+.callback__check_l {
+  color: #ffffff;
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+
+.feedback {
+  background-color: white;
+  padding-bottom: 0.3rem;
+}
+.feedback__items {
+  display: flex;
+  align-items: center;
+}
+.feedback__item_top {
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+.feedback__img {
+  height: 100px;
+  width: 100px;
+  margin-right: 1.1rem;
+}
+.feedback__arrow {
+  width: 0.8rem;
+  height: 1.3rem;
+}
+.feedback__arrow_left {
+  margin-right: 0.6rem;
+}
+.feedback__arrow_right {
+  margin-left: 0.6rem;
+}
+.feedback__h2 {
+  font-size: 1.625rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-bottom: 5px;
+  margin-top: -3px;
+}
+.feedback__h3 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.feedback__p {
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+.feedback__p-2 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-bottom: 0.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */

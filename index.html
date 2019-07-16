@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <div class="menu">
         <div class="container">
             <header class="header">
@@ -27,7 +26,7 @@
             </header>
         </div>
     </div>
-    <div class="top-text">
+    <section class="top-text">
         <div class="container">
             <h1 class="h1">ПРИДУМАЙТЕ ЧТО ОТПРАВИТЬ</h1>
             <h2 class="h2">А посылка доедет сама</h2>
@@ -35,7 +34,7 @@
                 <a href="#" class="button__a">отправить посылку</a>
             </div>
         </div>
-    </div>
+    </section>
     <main class="main">
         <div class="main__1">
             <div class="container">
@@ -51,32 +50,83 @@
                 </div>
             </div>
         </div>
-        <div class="main__2">
+        <section class="main__2">
             <div class="container">
                 <div class="main__steps">
-                    <div class="main-step">
-                        <img src="#" alt="Шаг 1" class="main_step-img">
-                        <h2>Шаг 1</h2>
-                        <p>Придумайте что и кому отправить</p>
-                    </div>
-                    <div class="main-step">
-                        <img src="#" alt="Шаг 2" class="main_step-img">
-                        <h2>Шаг 2</h2>
-                        <p>Создайте заявку на сайте SendIt - Ваш персональный менеджер позвонит и подтвердит запрос, уточнит все необходимые данные</p>
-                    </div>
-                    <div class="main-step">
-                        <img src="#" alt="Шаг 3" class="main_step-img">
-                        <h2>Шаг 3</h2>
-                        <p>К Вам приезжает курьер, забирает посылку, Вы подписываете один документ</p>
-                    </div>
-                    <div class="main-step">
-                        <img src="#" alt="Шаг 4" class="main_step-img">
-                        <h2>Шаг 4</h2>
-                        <p>Вы ждёте подтверждения доставки, слова радости и благодарности от адресата :)</p>
-                    </div>
+                    <article class="main__step">
+                        <img src="img/step-1.png" alt="Шаг 1" class="main__step-img">
+                        <h2 class="h2_step">Шаг 1</h2>
+                        <p class="p_step">Придумайте что и кому отправить</p>
+                    </article>
+                    <article class="main__step">
+                        <img src="img/step-2.png" alt="Шаг 2" class="main__step-img">
+                        <h2 class="h2_step">Шаг 2</h2>
+                        <p class="p_step">Создайте заявку на сайте SendIt - Ваш персональный менеджер позвонит и подтвердит запрос, уточнит все необходимые данные</p>
+                    </article>
+                    <article class="main__step">
+                        <img src="img/step-3.png" alt="Шаг 3" class="main__step-img">
+                        <h2 class="h2_step">Шаг 3</h2>
+                        <p class="p_step">К Вам приезжает курьер, забирает посылку, Вы подписываете один документ</p>
+                    </article>
+                    <article class="main__step">
+                        <img src="img/step-4.png" alt="Шаг 4" class="main__step-img">
+                        <h2 class="h2_step">Шаг 4</h2>
+                        <p class="p_step">Вы ждёте подтверждения доставки, слова радости и благодарности от адресата :)</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="main__steps_send">
+            <div class="container">
+                <h2>Мы берём все заботы по доставке на себя!</h2>
+                <div class="button button__blue">
+                    <a href="#" class="button__a">отправить посылку</a>
                 </div>
             </div>
         </div>
+        <section class="callback">
+            <div class="container">
+                <h1 class="callback_h1">хотите мы вам перезвоним?</h1>
+                <p class="callback_p">Закажите звонок, и менеджер вам всё расскажет и объяснит</p>
+                <form action="get">
+                    <label for="tel"></label>
+                    <input type="tel" placeholder="Ваш телефон" id="tel" class="callback__input">
+                    <div class="button button__yellow">
+                        <a href="#" class="button__a_y">заказать звонок</a>
+                    </div>
+
+                    <div class="callback__checkbox">
+                        <input type="checkbox" id="agree" class="callback__check">
+                        <label for="agree" class="callback__check_l">Я согласен на обработку персональных данных</label>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="feedback">
+            <div class="container">
+                <h1>ОТЗЫВЫ</h1>
+                <div class="feedback__items">
+                    <img src="img/arrow-left.png" alt="arrow" class="feedback__arrow feedback__arrow_left">
+                        <div class="feedback__item">
+                            <div class="feedback__item_top">
+                                <img src="img/feedback_img.png" alt="photo" class="feedback__img">
+                                <div class="feedback__name">
+                                    <h2 class="feedback__h2">Дарья</h2>
+                                    <h3 class="feedback__h3">La Intuicion</h3>
+                                    <p class="feedback__p">Посылка: товары</p>
+                                    <p class="feedback__p">Откуда: Москва</p>
+                                    <p class="feedback__p">Куда: Нижневартовск</p>
+                                </div>
+                            </div>
+                            <p class="feedback__p-2">Отличный и качественный сервис.
+                                Долго искали курьерскую службу для доставки наших товаров. Решили попробовать и были приятно
+                                удивлены, что помимо удобного сайта, компания предоставляет доступ в личный кабинет, где реализованы
+                                многие наши потребности (ведение адресной базы, выбор и вызов курьера в пару кликов).</p>
+                        </div>
+                    <img src="img/arrow-right.png" alt="arrow" class="feedback__arrow feedback__arrow_right">
+                </div>
+            </div>
+        </section>
     </main>
 
 
