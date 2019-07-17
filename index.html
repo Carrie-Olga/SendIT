@@ -15,16 +15,53 @@
         <div class="container">
             <header class="header">
                 <div class="logo">
-                    <img src="img/logo.png" alt="logo" class="logo__img">
+                    <a href="#"><img src="img/logo.png" alt="logo" class="logo__img"></a>
                 </div>
                 <div class="menu-icon">
-                    <img src="img/menu-image.png" alt="menu-img" class="menu__img">
+                    <a href="#"><img src="img/menu-image.png" alt="menu-img" class="menu__img" id="demo"></a>
                 </div>
-                <nav class="menu__nav">
-
-                </nav>
             </header>
         </div>
+        <nav class="menu__nav" id="drop">
+            <div class="container">
+                <div class="menu__nav_header">
+                    <div class="logo">
+                        <a href="#"><img src="img/logo2.png" alt="logo" class="logo__img"></a>
+                    </div>
+                    <div class="menu-icon">
+                        <a href="#"><img src="img/menu-x.png" alt="menu-x" class="menu__img2" id="cross"></a>
+                    </div>
+                </div>
+                    <nav class="menu__nav_open">
+                        <ul class="menu__nav_ul">
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Описание</a></li>
+                            <li><a href="#">Преимущества</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Партнеры</a></li>
+                            <li><a href="#">Гарантии</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </nav>
+                    <h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
+                    <form action="get" class="footer__form">
+                        <label for="tel3"></label>
+                        <input type="tel" placeholder="Ваш телефон" id="tel3" class="callback__input footer__input">
+                        <div class="button button__blue">
+                            <a href="#" class="button__a">заказать звонок</a>
+                        </div>
+                        <div class="callback__checkbox">
+                            <input type="checkbox" id="agree3" class="callback__check">
+                            <label for="agree3" class="callback__check_f">Я согласен на обработку персональных данных</label>
+                        </div>
+                    </form>
+                <div class="menu__nav_social">
+                    <img src="img/vk.png" alt="vk">
+                    <img src="img/inst.png" alt="insta">
+                    <img src="img/fb.png" alt="fb">
+                </div>
+            </div>
+        </nav>
     </div>
     <section class="top-text">
         <div class="container">
@@ -250,7 +287,7 @@
         <footer class="footer">
             <div class="container">
                 <h2 class="footer">ОСТАЛИСЬ ВОПРОСЫ?</h2>
-                <form action="get" class="footer__form"> 
+                <form action="get" class="footer__form">
                     <label for="tel2"></label>
                     <input type="tel" placeholder="Ваш телефон" id="tel2" class="callback__input footer__input">
                     <div class="button button__blue">
@@ -258,15 +295,15 @@
                     </div>
                     <div class="callback__checkbox">
                         <input type="checkbox" id="agree2" class="callback__check">
-                        <label for="agree" class="callback__check_f">Я согласен на обработку персональных данных</label>
+                        <label for="agree2" class="callback__check_f">Я согласен на обработку персональных данных</label>
                     </div>
                 </form>
                 <div class="footer__menu">
                     <div class="logo">
-                        <img src="img/logo2.png" alt="logo" class="logo__img">
+                        <a href="#"><img src="img/logo2.png" alt="logo" class="logo__img"></a>
                     </div>
                     <div class="menu-icon">
-                        <img src="img/menu2.png" alt="menu-img" class="menu__img">
+                        <a href="#"><img src="img/menu2.png" alt="menu-img" class="menu__img"></a>
                     </div>
                     <nav class="menu__nav">
                     </nav>
@@ -279,5 +316,21 @@
             </div>
         </footer>
     </main>
+    <script>
+        // Get the button, and when the user clicks on it, execute myFunction
+        document.getElementById("demo").onclick = function() {myFunction()};
+
+        /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+        function myFunction() {
+            document.getElementById("drop").classList.toggle("show");
+        }
+        // Get the button, and when the user clicks on it, execute myFunction
+        document.getElementById("cross").onclick = function() {myFunction2()};
+
+        /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+        function myFunction2() {
+            document.getElementById("drop").classList.toggle("hide");
+        }
+    </script>
 </body>
 </html>

@@ -78,13 +78,62 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: -400px;
+  position: relative;
 }
 .menu__nav {
+  position: absolute;
+  background-color: white;
+  top: 0;
+  width: 100%;
   display: none;
+}
+.menu__nav_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.menu__nav_ul {
+  list-style-type: none;
+}
+.menu__nav_ul li a {
+  font-size: 1.125rem;
+  line-height: 2.3rem;
+  color: #000000;
+  display: block;
+}
+.menu__nav form input {
+  background-color: white;
+}
+.menu__nav form {
+  border-bottom: none;
+}
+.menu__nav_social {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.menu__nav_social img {
+  width: 36px;
+  height: 36px;
+}
+.menu__nav_open {
+  margin-bottom: 10px;
 }
 .menu__img {
   width: 40px;
   height: 30px;
+}
+.menu__img2 {
+  width: 30px;
+  height: 30px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 .button {

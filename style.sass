@@ -66,13 +66,60 @@ p
   background-repeat: no-repeat
   background-size: cover
   background-position-x: -400px
+  position: relative
 
   &__nav
+    position: absolute
+    background-color: white
+    top: 0
+    width: 100%
     display: none
+
+    &_header
+      display: flex
+      justify-content: space-between
+      margin-bottom: 10px
+
+    &_ul
+      list-style-type: none
+
+      & li a
+        font-size: 1.125rem
+        line-height: 2.3rem
+        color: #000000
+        display: block
+
+    & form input
+      background-color: white
+
+    & form
+      border-bottom: none
+
+    &_social
+      display: flex
+      justify-content: space-between
+      margin-top: 10px
+
+      & img
+        width: 36px
+        height: 36px
+
+    &_open
+      margin-bottom: 10px
 
   &__img
     width: 40px
     height: 30px
+
+    &2
+      width: 30px
+      height: 30px
+
+.show
+  display: block
+
+.hide
+  display: none
 
 .button
   border-radius: 30px
