@@ -667,6 +667,42 @@ p {
   .feedback__item .feedback__p-2 {
     font-size: 0.875rem;
   }
+
+  .plus__item_circle {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  .plus__p .plus__p_p {
+    font-size: 0.75rem;
+  }
+
+  .plus__item_circle-img1 {
+    background-position: 20px 30px;
+  }
+
+  .plus__item_circle-img2 {
+    background-position: 33px 25px;
+  }
+
+  .plus__item_circle-img4 {
+    margin-top: 0.5rem;
+  }
+
+  .plus__item_circle-img5 {
+    margin-top: 0.5rem;
+  }
+
+  .plus__item_circle-img6 {
+    background-position: 33px 35px;
+    margin-top: 0.5rem;
+  }
+
+  .plus h1 {
+    color: #000;
+    font-size: 2.25rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
