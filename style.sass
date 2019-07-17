@@ -235,7 +235,6 @@ p
 
   &__items
     display: flex
-    align-items: center
 
   &__item_top
     display: flex
@@ -249,6 +248,7 @@ p
   &__arrow
     width: 0.8rem
     height: 1.3rem
+    margin: auto 0
 
     &_left
       margin-right: 0.6rem
@@ -277,7 +277,8 @@ p
       font-size: 0.75rem
       font-weight: 400
       margin-bottom: 0.4rem
-
+.feedback__items .feedback__item:last-of-type
+  display: none
 .plus
   background-color: #f7f7f7
 
@@ -556,6 +557,20 @@ p
     justify-content: space-between
     & form input
       margin-top: 0
-
-
+  .feedback h1
+    color: #000
+  .feedback__arrow_left
+    margin-right: 3rem
+  .feedback__arrow_right
+    margin-left: 3rem
+  .feedback__items .feedback__item:last-of-type
+    display: block
+  .feedback__items
+    justify-content: space-between
+  .feedback__item
+    width: 40%
+  .feedback__item .feedback__p
+    font-size: 0.625rem
+    &-2
+      font-size: 0.875rem
 
