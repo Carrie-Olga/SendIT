@@ -362,6 +362,14 @@ p
 .guarantee
   background-color: white
 
+  &__arrow
+    width: 0.8rem
+    height: 1.3rem
+    margin-top: 20px
+
+  &__cont
+    display: flex
+
   &__top
     display: flex
     align-items: center
@@ -390,7 +398,12 @@ p
     font-weight: 600
 
   &__bottom
-    padding: 0 25px
+    max-width: 220px
+    margin: 0 auto
+    &:first-of-type
+      display: none
+    &:last-of-type
+      display: none
 
 .doubts
   background-color: #d2ecf7
@@ -595,3 +608,31 @@ p
   .plus h1
     color: #000
     font-size: 2.25rem
+
+  .guarantee__arrow
+    display: none
+  .guarantee__bottom:first-of-type
+    display: block
+  .guarantee__bottom:last-of-type
+    display: block
+  .guarantee h1
+    color: #000
+    font-size: 2.25rem
+    font-weight: 700
+  .guarantee .button
+    width: 220px
+    min-width: 220px
+  .guarantee h3
+    font-size: 1.25rem
+  .guarantee p
+    font-size: 0.75rem
+  .doubts h1
+    color: #000
+    font-size: 2.25rem
+    font-weight: 700
+  .doubts__item
+    min-height: 60px
+  .doubts img
+    margin-right: 10px
+    margin-top: auto
+    margin-bottom: auto
