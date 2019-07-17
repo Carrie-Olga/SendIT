@@ -475,6 +475,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 10px;
+  width: 100%;
 }
 .brands__middle {
   display: flex;
@@ -489,9 +490,16 @@ p {
 .brands__middle:nth-of-type(6) {
   margin-bottom: 0;
 }
+.brands__middle:nth-of-type(7) {
+  display: none;
+}
+.brands__middle:nth-of-type(8) {
+  display: none;
+}
 .brands__brand {
   width: 60px;
   height: 40px;
+  line-height: 40px;
 }
 
 .footer {
@@ -764,6 +772,19 @@ p {
     margin-right: 10px;
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .brands__middle {
+    margin-bottom: 0;
+  }
+  .brands__middle:last-of-type .brands__brand {
+    width: 40px;
+  }
+  .brands__middle:nth-of-type(7) {
+    display: block;
+  }
+  .brands__middle:nth-of-type(8) {
+    display: block;
   }
 }
 
