@@ -87,6 +87,9 @@ p {
   width: 100%;
   display: none;
 }
+.menu__nav_footer {
+  display: none;
+}
 .menu__nav_header {
   display: flex;
   justify-content: space-between;
@@ -515,7 +518,7 @@ p {
   font-size: 0.875rem;
   font-weight: 400;
 }
-.footer__form {
+.footer__top {
   border-bottom: 1px solid #c4c4c4;
   padding-bottom: 15px;
 }
@@ -533,6 +536,9 @@ p {
   justify-content: space-between;
   box-sizing: border-box;
   padding-top: 10px;
+}
+.footer__copyright span {
+  margin-right: 5px;
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
@@ -565,6 +571,7 @@ p {
     display: inline-flex;
     width: 100%;
     justify-content: space-between;
+    min-width: 570px;
   }
   .menu__nav_ul li a {
     color: #ffffff;
@@ -662,6 +669,8 @@ p {
 
   .feedback h1 {
     color: #000;
+    font-weight: 700;
+    font-size: 2.25rem;
   }
 
   .feedback__arrow_left {
@@ -725,6 +734,7 @@ p {
   .plus h1 {
     color: #000;
     font-size: 2.25rem;
+    font-weight: 700;
   }
 
   .guarantee__arrow {
@@ -756,6 +766,7 @@ p {
 
   .guarantee p {
     font-size: 0.75rem;
+    height: 90px;
   }
 
   .doubts h1 {
@@ -785,6 +796,69 @@ p {
   }
   .brands__middle:nth-of-type(8) {
     display: block;
+  }
+
+  .footer__top {
+    display: flex;
+    position: relative;
+  }
+
+  .footer__form {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  .footer .button {
+    width: 220px;
+    min-width: 220px;
+    margin-top: 0;
+  }
+
+  .footer__input {
+    padding-right: 15px;
+    margin-top: 0;
+    margin-right: 20px;
+  }
+
+  .callback__checkbox {
+    position: absolute;
+    left: 230px;
+    top: 50px;
+  }
+
+  .footer h2 {
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 220px;
+    margin-right: 10px;
+  }
+
+  .menu__nav_footer {
+    display: block;
+  }
+
+  footer .menu__nav_footer a {
+    color: #000000;
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+
+  .footer__copyright span {
+    margin-right: 20px;
+  }
+
+  footer .menu__nav_social {
+    margin-top: 0;
+    display: flex;
+    min-width: 70px;
+  }
+
+  footer .menu__nav_social img {
+    width: 13px;
+    height: 13px;
   }
 }
 
