@@ -67,53 +67,49 @@ p
   background-size: cover
   background-position-x: -400px
   position: relative
-
   &__nav
     position: absolute
     background-color: white
     top: 0
     width: 100%
     display: none
-
     &_header
       display: flex
       justify-content: space-between
       margin-bottom: 10px
-
     &_ul
       list-style-type: none
-
       & li a
         font-size: 1.125rem
         line-height: 2.3rem
         color: #000000
         display: block
-
     & form input
       background-color: white
-
     & form
       border-bottom: none
-
     &_social
       display: flex
       justify-content: space-between
       margin-top: 10px
-
       & img
         width: 36px
         height: 36px
-
     &_open
       margin-bottom: 10px
-
+    &_list
+      display: none
   &__img
-    width: 40px
-    height: 30px
-
+    width: 45px
+    height: 35px
     &2
       width: 30px
       height: 30px
+
+.top-text-ipad
+  display: none
+
+
 
 .show
   display: block
@@ -128,6 +124,8 @@ p
   text-align: center
   margin: 20px auto 0
   min-width: 100%
+  max-height: 50px
+  line-height: 1rem
 
   &__blue
     background-color: #008dcd
@@ -178,7 +176,7 @@ p
 
 .logo__img
   width: 100px
-  height: 30px
+  height: 40px
 
 .callback
   background-color: #008dcd
@@ -473,4 +471,91 @@ p
     justify-content: space-between
     box-sizing: border-box
     padding-top: 10px
+
+@media screen and (min-width: 375px) and (max-width: 768px)
+  .menu
+    height: 415px
+    background-repeat: no-repeat
+    background-size: cover
+    background-position-x: -280px
+  .container
+    width: 740px
+    padding: 25px
+  .menu-icon
+    display: none
+  .menu__nav_open
+    display: flex
+  .menu__nav_list
+    display: inline-block
+    width: 100%
+  .menu__nav_ul
+    display: inline-flex
+    width: 100%
+    justify-content: space-between
+    & li a
+      color: #ffffff
+  .top-text-ipad
+    display: block
+    max-width: 400px
+    margin-top: 40px
+  h1
+    color: #ffffff
+    font-size: 2.75rem
+    line-height: 3.2rem
+  h2
+    color: #ffffff
+    font-size: 1.75rem
+    line-height: 2.5rem
+    margin-bottom: 40px
+  .button
+    min-width: 280px
+    width: 280px
+  .button__blue
+    margin-left: 0
+  .top-text
+    display: none
+  .main
+    position: relative
+    &__1
+      & img
+        position: absolute
+        right: 20px
+        width: 54%
+      & h3
+        font-size: 2.25rem
+        margin-bottom: 30px
+      & p
+        font-size: 0.875rem
+        margin-bottom: 30px
+      & .button
+        margin-bottom: 20px
+    &__send
+      width: 40%
+    &__steps
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content: space-around
+      margin: 20px 0
+
+    &__step
+      max-width: 45%
+    & h2
+      color: #000
+      font-size: 1.625rem
+    & p
+      font-size: 1rem
+  .main__steps-ipad
+    display: flex
+    justify-content: space-between
+    & .button
+      margin-right: 0
+    & h2
+      margin-bottom: 0
+  .callback__cont
+    display: flex
+    justify-content: space-between
+    & form input
+      margin-top: 0
+
+
 
