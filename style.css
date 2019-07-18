@@ -545,7 +545,7 @@ footer .menu__nav_social {
   display: none;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
   .menu {
     height: 415px;
     background-repeat: no-repeat;
