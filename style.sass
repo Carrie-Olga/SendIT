@@ -502,7 +502,7 @@ p
 footer .menu__nav_social
   display: none
 
-@media screen and (min-width: 321px) and (max-width: 768px)
+@media screen and (min-width: 321px) and (max-width: 1440px)
   .menu
     height: 415px
     background-repeat: no-repeat
@@ -546,12 +546,10 @@ footer .menu__nav_social
   .top-text
     display: none
   .main
-    position: relative
     &__1
       & img
-        position: absolute
-        right: 20px
         width: 54%
+        float: right
       & h3
         font-size: 2.25rem
         margin-bottom: 30px
@@ -560,14 +558,13 @@ footer .menu__nav_social
         margin-bottom: 30px
       & .button
         margin-bottom: 20px
-    &__send
-      width: 40%
     &__steps
       flex-direction: row
       flex-wrap: wrap
       justify-content: space-around
       margin: 20px 0
-
+    &__send_left
+      width: 40%
     &__step
       max-width: 45%
     & h2
@@ -710,3 +707,4 @@ footer .menu__nav_social
   footer .menu__nav_social img
     width: 13px
     height: 13px
+

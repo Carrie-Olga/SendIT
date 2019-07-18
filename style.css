@@ -545,7 +545,7 @@ footer .menu__nav_social {
   display: none;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 1440px) {
   .menu {
     height: 415px;
     background-repeat: no-repeat;
@@ -613,13 +613,9 @@ footer .menu__nav_social {
     display: none;
   }
 
-  .main {
-    position: relative;
-  }
   .main__1 img {
-    position: absolute;
-    right: 20px;
     width: 54%;
+    float: right;
   }
   .main__1 h3 {
     font-size: 2.25rem;
@@ -632,14 +628,14 @@ footer .menu__nav_social {
   .main__1 .button {
     margin-bottom: 20px;
   }
-  .main__send {
-    width: 40%;
-  }
   .main__steps {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 20px 0;
+  }
+  .main__send_left {
+    width: 40%;
   }
   .main__step {
     max-width: 45%;
