@@ -418,7 +418,29 @@ p {
   height: 62px;
   border-radius: 50%;
   background-color: #f7f7f7;
+  background-image: url("img/guarant2.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0.5rem;
+}
+.guarantee__top_round2 {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
   background-image: url("img/guarant.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 0.5rem;
+}
+.guarantee__top_round3 {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  background-image: url("img/guarant3.png");
   background-size: 30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -780,6 +802,17 @@ footer .menu__nav_social {
   .guarantee__top_round {
     width: 100px;
     height: 100px;
+    background-size: 40px;
+  }
+  .guarantee__top_round2 {
+    width: 100px;
+    height: 100px;
+    background-size: 40px;
+  }
+  .guarantee__top_round3 {
+    width: 100px;
+    height: 100px;
+    background-size: 40px;
   }
 
   .guarantee__top_second {
@@ -1161,10 +1194,12 @@ footer .menu__nav_social {
     display: none;
   }
 
+  .guarantee__bottom {
+    max-width: 355px;
+  }
   .guarantee__bottom:first-of-type {
     display: block;
   }
-
   .guarantee__bottom:last-of-type {
     display: block;
   }
@@ -1176,19 +1211,45 @@ footer .menu__nav_social {
   }
 
   .guarantee .button {
-    width: 220px;
-    min-width: 220px;
+    width: 350px;
+    min-width: 350px;
   }
 
   .guarantee h3 {
     font-size: 1.875rem;
     line-height: 1.875rem;
+    margin-bottom: 25px;
   }
 
   .guarantee p {
     font-size: 1rem;
     line-height: 1rem;
     height: 90px;
+  }
+
+  .guarantee__top_round {
+    width: 160px;
+    height: 160px;
+    background-size: 60px;
+  }
+  .guarantee__top_round2 {
+    width: 160px;
+    height: 160px;
+    background-size: 60px;
+  }
+  .guarantee__top_round3 {
+    width: 160px;
+    height: 160px;
+    background-size: 60px;
+  }
+
+  .guarantee__top_second {
+    margin-left: 0;
+    padding-top: 20px;
+  }
+
+  .guarantee__bottom-circle {
+    display: block;
   }
 
   .doubts h1 {
@@ -1199,12 +1260,26 @@ footer .menu__nav_social {
 
   .doubts__item {
     min-height: 60px;
+    width: 545px;
+    margin-bottom: 15px;
   }
 
   .doubts img {
     margin-right: 10px;
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .doubts__flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  .brands__brand {
+    width: 95px;
+    height: 60px;
   }
 
   .brands__middle {
@@ -1223,17 +1298,18 @@ footer .menu__nav_social {
   .footer__top {
     display: flex;
     position: relative;
+    justify-content: space-between;
   }
 
   .footer__form {
-    width: 220px;
+    width: 720px;
     display: flex;
     justify-content: space-between;
     height: 50px;
   }
 
   .footer .button {
-    width: 220px;
+    width: 3600px;
     min-width: 220px;
     margin-top: 0;
   }
@@ -1242,6 +1318,7 @@ footer .menu__nav_social {
     padding-right: 15px;
     margin-top: 0;
     margin-right: 20px;
+    min-width: 360px;
   }
 
   .callback__checkbox1 {
@@ -1250,28 +1327,29 @@ footer .menu__nav_social {
     top: 140px;
   }
 
-  .callback__checkbox {
+  footer .callback__checkbox {
     position: absolute;
-    left: 230px;
+    left: 390px;
     top: 50px;
   }
 
   .footer h2 {
-    font-size: 1.25rem;
+    font-size: 1.875rem;
     text-transform: uppercase;
     font-weight: 700;
-    width: 220px;
+    width: 360px;
     margin-right: 10px;
   }
 
   .menu__nav_footer {
     display: block;
+    width: 960px;
   }
 
   footer .menu__nav_footer a {
     color: #000000;
     font-weight: 400;
-    font-size: 0.875rem;
+    font-size: 1.125rem;
   }
 
   .footer__copyright span {
@@ -1281,12 +1359,32 @@ footer .menu__nav_social {
   footer .menu__nav_social {
     margin-top: 0;
     display: flex;
-    min-width: 70px;
+    min-width: 120px;
   }
 
   footer .menu__nav_social img {
-    width: 13px;
-    height: 13px;
+    width: 20px;
+    height: 20px;
+  }
+
+  footer .logo {
+    margin-right: 40px;
+  }
+
+  footer .logo__img {
+    width: 180px;
+    height: 60px;
+  }
+
+  .footer__copyright .footer__p {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .footer__copyright span {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-right: 60px;
   }
 }
 
