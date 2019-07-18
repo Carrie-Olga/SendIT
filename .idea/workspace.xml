@@ -20,8 +20,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+                <state relative-caret-position="825">
+                  <caret line="55" column="67" lean-forward="true" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
                   <folding>
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -134,12 +134,12 @@
       <workItem from="1563441237052" duration="1305000" />
       <workItem from="1563447526461" duration="359000" />
       <workItem from="1563449731978" duration="124000" />
-      <workItem from="1563449925501" duration="11952000" />
+      <workItem from="1563449925501" duration="12190000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51774000" />
+    <option name="totallyTimeSpent" value="52012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1570" height="971" extended-state="0" />
@@ -184,8 +184,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        <state relative-caret-position="825">
+          <caret line="55" column="67" lean-forward="true" selection-start-line="55" selection-start-column="67" selection-end-line="55" selection-end-column="67" />
           <folding>
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" />
