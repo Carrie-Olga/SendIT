@@ -20,13 +20,13 @@
                 </div>
                 <nav class="menu__nav_list">
                     <ul class="menu__nav_ul">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Описание</a></li>
-                        <li><a href="#">Преимущества</a></li>
-                        <li><a href="#">Отзывы</a></li>
-                        <li><a href="#">Партнеры</a></li>
-                        <li><a href="#">Гарантии</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#main">Описание</a></li>
+                        <li><a href="#plus">Преимущества</a></li>
+                        <li><a href="#feedback">Отзывы</a></li>
+                        <li><a href="#brands">Партнеры</a></li>
+                        <li><a href="#guarantee">Гарантии</a></li>
+                        <li><a href="#doubts">FAQ</a></li>
                     </ul>
                 </nav>
             </header>
@@ -50,13 +50,13 @@
                 </div>
                     <nav class="menu__nav_open">
                         <ul class="menu__nav_ul">
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Описание</a></li>
-                            <li><a href="#">Преимущества</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Партнеры</a></li>
-                            <li><a href="#">Гарантии</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="#main">Описание</a></li>
+                            <li><a href="#plus">Преимущества</a></li>
+                            <li><a href="#feedback">Отзывы</a></li>
+                            <li><a href="#brands">Партнеры</a></li>
+                            <li><a href="#guarantee">Гарантии</a></li>
+                            <li><a href="#doubts">FAQ</a></li>
                         </ul>
                     </nav>
                     <h2>ОСТАЛИСЬ ВОПРОСЫ?</h2>
@@ -88,18 +88,23 @@
             </div>
         </div>
     </section>
-    <main class="main">
+    <main class="main" id="main">
         <div class="main__1">
             <div class="container">
-                <h3>Мы – агрегатор служб доставки</h3>
+                <img src="img/main-img.png" alt="main-img" class="main__img_1440">
+                <div>
+                    <h3>Мы – агрегатор служб доставки</h3>
+                </div>
                 <div class="main__send">
                     <img src="img/main-img.png" alt="main-img" class="main__img">
 
-                    <p>С нами удобно вам, вашим клиентам и курьерским службам. Для вас наши услуги бесплатны,
-                        так как мы получаем бонусы от служб доставок за предоставленный объем заказов, а вы получаете надежный сервис в подарок!
-                    </p>
-                    <div class="button button__blue">
-                        <a href="#" class="button__a">отправить посылку</a>
+                    <div class="main__send_left">
+                        <p>С нами удобно вам, вашим клиентам и курьерским службам. Для вас наши услуги бесплатны,
+                            так как мы получаем бонусы от служб доставок за предоставленный объем заказов, а вы получаете надежный сервис в подарок!
+                        </p>
+                        <div class="button button__blue">
+                            <a href="#" class="button__a">отправить посылку</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,7 +138,9 @@
         <div class="main__steps_send">
             <div class="container">
                 <div class="main__steps-ipad">
-                    <h2>Мы берём все заботы по <br> доставке на себя!</h2>
+                    <div class="main__steps-ipad-h2">
+                        <h2>Мы берём все заботы по доставке на себя!</h2>
+                    </div>
                     <div class="button button__blue">
                         <a href="#" class="button__a">отправить посылку</a>
                     </div>
@@ -142,7 +149,7 @@
         </div>
         <section class="callback">
             <div class="container callback__cont">
-                <div style="width: 40%">
+                <div>
                     <h1 class="callback_h1">хотите мы вам перезвоним?</h1>
                     <p class="callback_p">Закажите звонок, и менеджер вам всё расскажет и объяснит</p>
                 </div>
@@ -160,7 +167,7 @@
                 </form>
             </div>
         </section>
-        <section class="feedback">
+        <section class="feedback" id="feedback">
             <div class="container">
                 <h1>ОТЗЫВЫ</h1>
                 <div class="feedback__items">
@@ -201,7 +208,7 @@
                 </div>
             </div>
         </section>
-        <section class="plus">
+        <section class="plus" id="plus">
             <div class="container">
                 <h1 class="plus__items_h1">НАШИ ПРЕИМУЩЕСТВА</h1>
                 <div class="plus__items">
@@ -232,14 +239,14 @@
                 </div>
             </div>
         </section>
-        <section class="guarantee">
+        <section class="guarantee" id="guarantee">
             <div class="container">
             <h1>НАШИ ГАРАНТИИ</h1>
             <div class="guarantee__cont">
                     <img src="img/arrow-left.png" alt="arrow" class="guarantee__arrow feedback__arrow_left">
                     <div class="guarantee__bottom">
-                        <div style="display: flex;">
-                            <div class="guarantee__top_round"></div>
+                        <div >
+                            <div class="guarantee__top_round2"></div>
                             <div class="guarantee__top_second">
                                 <h3 class="guarantee__h3">Страховка отправлений</h3>
                             </div>
@@ -251,7 +258,7 @@
                         </div>
                     </div>
                 <div class="guarantee__bottom">
-                    <div style="display: flex;">
+                    <div class="guarantee__bottom-circle">
                         <div class="guarantee__top_round"></div>
                         <div class="guarantee__top_second">
                             <h3 class="guarantee__h3">Прозрачность расчетов</h3>
@@ -263,8 +270,8 @@
                     </div>
                 </div>
                 <div class="guarantee__bottom">
-                    <div style="display: flex;">
-                        <div class="guarantee__top_round"></div>
+                    <div>
+                        <div class="guarantee__top_round3"></div>
                         <div class="guarantee__top_second">
                             <h3 class="guarantee__h3">Лучшие поставщики</h3>
                         </div>
@@ -278,36 +285,38 @@
             </div>
             </div>
         </section>
-        <section class="doubts">
+        <section class="doubts" id="doubts">
             <div class="container">
                 <h1>ОСТАЛИСЬ СОМНЕНИЯ?</h1>
-                <div class="doubts__item">
-                    <div class="doubts__item_p"><p class="doubts__p">На бумажную волокиту уйдёт много времени, а мне нужно доставить срочно!</p></div>
-                    <img src="img/arrow-down.png" alt="arrow">
-                </div>
-                <div class="doubts__item">
-                    <div class="doubts__item_p"><p class="doubts__p">Мне необходимо совершить доставку по нескольким адресам, нужно много чего заполнять</p></div>
-                    <img src="img/arrow-down.png" alt="arrow">
-                </div>
-                <div class="doubts__item">
-                    <div class="doubts__item_p"><p class="doubts__p">Вы не сможете доставить посылку за границу</p></div>
-                    <img src="img/arrow-down.png" alt="arrow">
-                </div>
-                <div class="doubts__item">
-                    <div class="doubts__item_p"><p class="doubts__p">Вы не занимаетесь такими простыми грузами, как мебель</p></div>
-                    <img src="img/arrow-down.png" alt="arrow">
-                </div>
-                <div class="doubts__item">
-                    <div class="doubts__item_p"><p class="doubts__p">Я отправляю вместе с коллегами, мы можем легко запутаться где чьё</p></div>
-                    <img src="img/arrow-down.png" alt="arrow">
-                </div>
-                <div class="doubts__item">
-                    <div class="doubts__item_p"><p class="doubts__p">Нужно заполнять кучу документов</p></div>
-                    <img src="img/arrow-down.png" alt="arrow">
+                <div class="doubts__flex">
+                    <div class="doubts__item">
+                        <div class="doubts__item_p"><p class="doubts__p">На бумажную волокиту уйдёт много времени, а мне нужно доставить срочно!</p></div>
+                        <img src="img/arrow-down.png" alt="arrow">
+                    </div>
+                    <div class="doubts__item">
+                        <div class="doubts__item_p"><p class="doubts__p">Мне необходимо совершить доставку по нескольким адресам, нужно много чего заполнять</p></div>
+                        <img src="img/arrow-down.png" alt="arrow">
+                    </div>
+                    <div class="doubts__item">
+                        <div class="doubts__item_p"><p class="doubts__p">Вы не сможете доставить посылку за границу</p></div>
+                        <img src="img/arrow-down.png" alt="arrow">
+                    </div>
+                    <div class="doubts__item">
+                        <div class="doubts__item_p"><p class="doubts__p">Вы не занимаетесь такими простыми грузами, как мебель</p></div>
+                        <img src="img/arrow-down.png" alt="arrow">
+                    </div>
+                    <div class="doubts__item">
+                        <div class="doubts__item_p"><p class="doubts__p">Я отправляю вместе с коллегами, мы можем легко запутаться где чьё</p></div>
+                        <img src="img/arrow-down.png" alt="arrow">
+                    </div>
+                    <div class="doubts__item">
+                        <div class="doubts__item_p"><p class="doubts__p">Нужно заполнять кучу документов</p></div>
+                        <img src="img/arrow-down.png" alt="arrow">
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="brands">
+        <section class="brands" id="brands">
             <div class="container">
                 <div class="brands__block">
                     <img src="img/arrow-left.png" alt="arrow" class="feedback__arrow feedback__arrow_left">
@@ -382,13 +391,13 @@
                     </div>
                     <nav class="menu__nav_footer">
                         <ul class="menu__nav_ul">
-                            <li><a href="#">Главная</a></li>
-                            <li><a href="#">Описание</a></li>
-                            <li><a href="#">Преимущества</a></li>
-                            <li><a href="#">Отзывы</a></li>
-                            <li><a href="#">Партнеры</a></li>
-                            <li><a href="#">Гарантии</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="#main">Описание</a></li>
+                            <li><a href="#plus">Преимущества</a></li>
+                            <li><a href="#feedback">Отзывы</a></li>
+                            <li><a href="#brands">Партнеры</a></li>
+                            <li><a href="#guarantee">Гарантии</a></li>
+                            <li><a href="#doubts">FAQ</a></li>
                         </ul>
                     </nav>
                 </div>
